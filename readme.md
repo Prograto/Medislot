@@ -5,7 +5,7 @@ MediSlot is a **full‑stack hospital appointment booking system** with an **AI�
 The platform supports **patients, hospitals, and doctors**, and is designed with scalability, real‑world workflows, and modern UI/UX in mind.
 
 ---
-
+live link : https://medi-slot-pro.vercel.app/
 ## 🚀 Key Features
 
 ### 👤 Patient Features

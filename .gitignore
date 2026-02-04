@@ -1,0 +1,26 @@
+﻿# Env
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node
+node_modules/
+dist/
+build/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vite
+.vite/
+
+# Reports / large artifacts
+*.pdf

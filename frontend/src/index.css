@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply text-slate-100 font-sans min-h-screen;
+  background:
+    radial-gradient(900px 320px at 12% -8%, rgba(44, 116, 179, 0.20), transparent 60%),
+    radial-gradient(800px 300px at 88% -12%, rgba(99, 179, 106, 0.18), transparent 60%),
+    linear-gradient(180deg, #020617 0%, #0b1220 100%);
+}
+
+.input {
+  @apply w-full px-4 py-3 rounded-lg bg-slate-800 border border-slate-700
+         focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/20
+         transition placeholder:text-slate-500;
+}
